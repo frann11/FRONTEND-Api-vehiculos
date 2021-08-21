@@ -134,3 +134,20 @@ button:hover{
  li :hover{
     background-color: #F1F2F0 !important;
 }
+
+@media (max-width: 991.98px){
+    .listaDetalles{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .listaVehiculos{
+        grid-row:2;
+    }
+
+    .infoVehiculo{
+        grid-row:1;
+    }
+}
