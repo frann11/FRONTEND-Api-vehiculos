@@ -122,3 +122,15 @@ input:focus-visible{
 button:hover{
     background-color:#16191d;
 }
+
+ .opciones{
+    background-color: white; 
+    min-height: auto;
+}
+
+.seleccionado{
+    background-color: #F1F2F0
+}
+ li :hover{
+    background-color: #F1F2F0 !important;
+}
