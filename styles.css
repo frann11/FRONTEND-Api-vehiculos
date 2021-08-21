@@ -142,7 +142,7 @@ button:hover{
         display:grid;
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr;
-        gap: 30px;
+        gap: 17px;
     }
 
     .listaVehiculos{
