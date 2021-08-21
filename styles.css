@@ -1,0 +1,124 @@
+nav {
+    background-color: red;width:100%;
+}
+
+body{
+    background-color: #e2e4e1;
+    color:black;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1rem;
+    
+}
+nav{
+    display:flex;
+    padding-left: 0;
+    margin:0;
+    display:flex;
+    height:60px;
+    position:fixed;
+    top:0;
+}
+
+ .s1{
+    display:flex;
+    padding-left: 35px;
+    color:white;
+    justify-content: flex-start;
+    align-items: center;
+     width: 100%;
+    background-color: #364147;
+}
+
+.s2{
+    display:flex;
+    padding-left: 30px;
+    color:white;
+    justify-content: flex-start;
+    align-items: center;
+     width: 100%;
+    background-color: #2a3138;
+}
+
+h2{
+    font-size:25px;
+    color:black;
+    margin-bottom: 0.5em;
+}
+
+h3, h4{
+    font-size:14px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container{
+    margin-top: 25px;
+    padding:35px;
+}
+
+.listaDetalles{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.autos{
+    display:grid;
+    
+}
+
+
+.marca, .año , .modelo{
+    line-height: 0.2rem;
+    padding:15px;
+    padding-bottom:0;
+    padding-top:0;
+}
+
+ul{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    
+}
+
+li{
+
+    padding: 0; 
+    display: grid;
+    margin:10px;
+    margin-left: 0;
+    margin-top:0;
+    list-style: none;
+    line-height: none;
+    size: 100%;
+}
+
+.marca{
+    margin-top:25px
+}
+.año{
+    margin-top: 13px;
+}
+
+.seleccionado{
+    background-color: #F1F2F0;
+}
+
+button{
+    color:white;
+    background-color:#364147;
+    border:none;
+}
+
+hr {
+    background-color: black;
+}
+
+input:focus-visible{
+    outline:none;
+}
+
+button:hover{
+    background-color:#16191d;
+}
