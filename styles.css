@@ -137,6 +137,15 @@ button:hover{
     background-color: #F1F2F0 !important;
 }
 
+.fa-tag:hover{
+    color: #33b77e;
+}
+
+.vendido{
+    color: #33b77e !important;
+}
+
+
 @media (max-width: 991.98px){
     .listaDetalles{
         display:grid;
