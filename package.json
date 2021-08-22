@@ -1,0 +1,23 @@
+{
+  "name": "frontend-vehiculos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frann11/FRONTEND-Api-vehiculos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frann11/FRONTEND-Api-vehiculos/issues"
+  },
+  "homepage": "https://github.com/frann11/FRONTEND-Api-vehiculos#readme"
+}
